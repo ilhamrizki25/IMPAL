@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Landing</title>
+  <title>Login</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
 </head>
@@ -16,16 +16,18 @@
     font-family: "Roboto Condensed", sans-serif;
     width: 100%;
     height: 100%;
+    overflow: hidden;
   }
 
   #App {
     width: 100%;
     height: 100%;
-    display: flex;
+    /* display: flex; */
   }
 
   #Info {
     background-color: #c4c4c4;
+    /* background-image: url("../assets/img/BG-Regis.png"); */
   }
 
   #Info h1 {
@@ -78,7 +80,7 @@
 
     <!-- Right Side -->
     <div id="Login" class="col-lg-5">
-      <form class="col-10" action="">
+      <form class="col-md-9" action="">
         <h1 class="d-flex justify-content-center">Login Tamagotchi Adventure</h1>
         <div class="form-group">
           <label for="user">Email or Username</label>
@@ -87,10 +89,10 @@
         <div class="form-group">
           <label for="password">Password</label>
           <input type="password" class="form-control" id="password" />
-          <a href="">Forgot Password?</a>
+          <a href="">Forgot password?</a>
         </div>
         <button type="submit" class="btn btn-primary my-2 container-fluid">Login</button>
-        <a href="../view/Register.html" class="d-flex justify-content-center">Register New Account</a>
+        <a href="../view/Register.html" class="d-flex justify-content-center">Register new account</a>
       </form>
     </div>
 
