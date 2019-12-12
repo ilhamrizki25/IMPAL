@@ -18,7 +18,7 @@
 
   <h3>You Don't Have Enough Gold</h3>  
 
-  <form method="get" action="<?php echo ('http://localhost/Tamagotchi/CTheInn')?>">
+  <form method="get" action="<?php echo ('http://localhost/Tamagotchi/dashboard')?>">
   <input type="Submit" value="Cancel"> 
 </div>
 </div>

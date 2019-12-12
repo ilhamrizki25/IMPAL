@@ -19,7 +19,7 @@
   
   <h3><?php echo $kalimat ?></h3>  
 
-  <form method="get" action="<?php base_url()?>">
+  <form method="get" action="<?= base_url()?>">
     <input class="boxpet btn-danger" type="Submit" value="Back">
     <br><br><br>
 </div>
