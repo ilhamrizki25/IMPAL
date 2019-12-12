@@ -1,0 +1,108 @@
+html,
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#App img.Background-ware {
+  position: absolute;
+  width: 100%;
+}
+
+.content {
+  width: 98%;
+  height: 95%;
+  display: flex;
+  padding-top: 20px;
+  position: relative;
+  z-index: 10;
+}
+
+.content h1 {
+  color: white;
+  text-shadow: -1px -1px 0 #0099ff, 1px -1px 0 #0099ff, -1px 1px 0 #0099ff, 1px 1px 0 #0099ff;
+  font-weight: 700;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exit {
+  display: flex;
+  width: 100px;
+  background-color: #C4C4C4;
+  justify-content: center;
+}
+
+.exit img {
+  width: 80%;
+}
+
+.bag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  background-color: #C4C4C4;
+}
+
+.box {
+  width: 95%;
+  height: 90%;
+  background-color: #555353;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.box .outside {
+  width: 10%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #C4C4C4;
+  padding: 10px;
+  margin: 10px;
+}
+
+.box .outside h2 {
+  font-size: 18px;
+  line-height: 12px;
+}
+
+.box .outside .gold {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: #FFD700;
+}
+
+.inside {
+  margin-bottom: 10px;
+  width: 80%;
+  height: 50%;
+  background-color: #945252;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inside img {
+  height: 80%;
+}
+
+/*# sourceMappingURL=bundle.css.map */
