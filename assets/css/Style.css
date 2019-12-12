@@ -1,0 +1,47 @@
+body, html {
+    overflow: hidden;
+}
+
+.berbox{
+    background-color: #958D7D;
+    opacity: 0.8;
+    color: Black;
+    text-align: center;
+    padding: 24px;
+}
+
+.colC{
+    align-content: right;
+    text-align: center;
+}   
+
+.bback{
+    background-color: white;
+    border: none;
+}
+
+.boxpet{
+    font-size: 68px;
+    width: 780px;
+    height: 120px;
+}
+
+.tomback img{
+    width: 120px;
+    height: 120px;
+}
+
+.food{
+    font-size: 32px;
+}
+
+.goldcolor{
+    color: #FFD700;
+}
+.rubycolor{
+    color: #CB2D2D;
+}
+
+h1, h3{
+    color: white;
+}

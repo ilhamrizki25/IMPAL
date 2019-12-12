@@ -20,9 +20,10 @@ body {
 }
 
 .content {
-  width: 98%;
+  width: 100%;
   height: 95%;
-  padding-top: 20px;
+  padding: 20px 50px;
+  margin: 0 !important;
 }
 
 .box {
@@ -104,19 +105,28 @@ body {
 }
 
 .armory,
-.petshop {
+.petshop,
+.battle,
+.theinn,
+.restaurant {
   flex-direction: column;
   width: 280px;
   height: 280px;
 }
 
 .armory img,
-.petshop img {
-  width: 70%;
+.petshop img,
+.battle img,
+.theinn img,
+.restaurant img {
+  width: 65%;
 }
 
 .armory p,
-.petshop p {
+.petshop p,
+.battle p,
+.theinn p,
+.restaurant p {
   text-transform: capitalize;
   font-size: 40px;
   font-weight: 700;
